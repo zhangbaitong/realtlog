@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+homeDir = process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME'];
+confPath = __dirname + '/../etc/settings.json';
+console.log('config:',confPath);
+conf = require(confPath).config;
+server = require('realtlog');
+new server(conf).start();
