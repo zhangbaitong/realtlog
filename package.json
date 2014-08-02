@@ -1,0 +1,20 @@
+{
+    "name": "realtlog",
+    "version": "0.0.1",
+    "description": "Realtlog is a realtime log system, providing multiple log collection show with browser.",
+    "homepage": "https://github.com/zhangbaitong/realtlog/blob/master/README.md",
+    "keywords": ["logs", "realtime", "node.js", "multiple"],
+    "author": "Zhang Baitong <zhangbaitong@163.com>",
+    "contributors": [
+        { "name": "Zhang Baitong", "email": "zhangbaitong@163.com" }
+    ],
+    "dependencies": {
+        "socket.io": "~1.0.6",
+        "socket.io-client": "~1.0.6"
+    },
+    "bin" : {
+        "realtlog": "./bin/realtlog"
+    },
+    "main": "./lib/log-server.js",
+    "license": [{"type":"Apache License 2.0","url":"./LICENSE"}]
+}

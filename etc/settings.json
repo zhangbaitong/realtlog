@@ -1,0 +1,11 @@
+{
+    "port"     : 8765,
+    "server"   : "http://127.0.0.1:8765",
+    "interval" : 60000,
+    "logs"     : {
+        "log-top-left"     : "message.text",
+        "log-top-right"    : "message{date}.text",
+        "log-bottom-left"  : "",
+        "log-bottom-right" : ""
+    }
+}
