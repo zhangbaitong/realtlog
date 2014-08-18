@@ -1,6 +1,6 @@
 {
     "name": "realtlog",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Realtlog is a realtime log system, providing multiple log collection show with browser.",
     "homepage": "https://github.com/zhangbaitong/realtlog/blob/master/README.md",
     "keywords": ["logs", "realtime", "node.js", "multiple"],
@@ -10,7 +10,8 @@
     ],
     "dependencies": {
         "socket.io": "~1.0.6",
-        "socket.io-client": "~1.0.6"
+        "socket.io-client": "~1.0.6",
+        "moment": "~2.8.1"
     },
     "bin" : {
         "realtlog": "./bin/realtlog"
