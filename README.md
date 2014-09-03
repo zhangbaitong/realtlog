@@ -8,7 +8,7 @@ npm install -g realtlog
 
 ##Use
 
-vi realtlog/etc/settings.json
+vi /usr/lib/node_modules/realtlog/etc/settings.json
 
 realtlog server
 

@@ -1,11 +1,27 @@
 {
-    "port"     : 8765,
-    "server"   : "http://127.0.0.1:8765",
-    "interval" : 60000,
-    "logs"     : {
-        "log-top-left"     : "message.text",
-        "log-top-right"    : "message{date}.text",
-        "log-bottom-left"  : "",
-        "log-bottom-right" : ""
+    "server":
+    {
+        "port"     : 8765,
+        "server"   : "http://127.0.0.1:8765"
+    },
+    "log1":
+    {
+        "interval" : 10000,
+        "logs"     : {
+            "log-top-left"     : "/home/{month}/{date}.log",
+            "log-top-right"    : "",
+            "log-bottom-left"  : "",
+            "log-bottom-right" : ""
+        }
+    },
+    "log2":
+    {
+        "interval" : 10000,
+        "logs"     : {
+            "log-top-left"     : "",
+            "log-top-right"    : "",
+            "log-bottom-left"  : "",
+            "log-bottom-right" : ""
+        }
     }
 }

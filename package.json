@@ -1,6 +1,6 @@
 {
     "name": "realtlog",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Realtlog is a realtime log system, providing multiple log collection show with browser.",
     "homepage": "https://github.com/zhangbaitong/realtlog/blob/master/README.md",
     "keywords": ["logs", "realtime", "node.js", "multiple"],
